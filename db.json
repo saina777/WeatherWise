@@ -1,0 +1,8 @@
+{
+  "cities": [
+    { "id": 1, "name": "Nairobi" },
+    { "id": 2, "name": "London" },
+    { "id": 3, "name": "New York" }
+  ]
+}
+

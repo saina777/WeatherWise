@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WeatherWise</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" type="image/png" href="favicon.png"/>
+</head>
+<body>
+  <div class="container">
+    <h1>WeatherWise</h1>
+    <form id="weatherForm">
+      <input type="text" id="cityInput" placeholder="Enter city name" required />
+      <button type="submit">Get Weather</button>
+    </form>
+    <button id="favouriteBtn" type="button">⭐ Favourite</button>
+    <div id="weatherResult"></div>
+    <div id="loadingSpinner" style="display:none;">
+      <div class="spinner"></div>
+    </div>
+    <div id="likeMsg" style="height:24px; margin-top:8px;"></div>
+    <div id="favouritesList" style="margin-top:16px;"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
