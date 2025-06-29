@@ -19,3 +19,4 @@ It uses the [WeatherAPI](https://www.weatherapi.com/) for weather data and [REST
 
 ## Author
 Derrick Wilson
+https://saina777.github.io/WeatherWise/
